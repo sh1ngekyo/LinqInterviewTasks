@@ -1,0 +1,1 @@
+Console.WriteLine("aaa;xabbx;abb;ccc;dap".Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Any(x => x.Equals("abb")));

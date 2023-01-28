@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(" ", Enumerable.Repeat("Linq", 10)));

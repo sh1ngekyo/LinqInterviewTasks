@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join("", "aaa;xabbx;abb;ccc;dap".Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Max<string>()));

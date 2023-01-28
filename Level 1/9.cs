@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(", ", "aaa;xabbx;abb;ccc;dap;zh".Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Where(x => x.Length == "aaa;xabbx;abb;ccc;dap;zh".Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Min(x => x.Length))));

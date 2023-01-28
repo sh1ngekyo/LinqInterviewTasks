@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(",", Enumerable.Range(10, 41).Where(x => x % 3 == 0).ToList()));

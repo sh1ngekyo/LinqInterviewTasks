@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(", ", "baaa;aabb;aaa;xabbx;abb;ccc;dap;zh".Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Select(x => x.StartsWith("aa") && x.Skip(2).All(x => x == 'b'))));
